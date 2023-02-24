@@ -4,6 +4,14 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
+jar {
+  manifest {
+    attributes(
+      'Main-Class': 'br.valecard.SimpleApplication'
+    )
+  }
+}
+
 group = 'br.valecard'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
