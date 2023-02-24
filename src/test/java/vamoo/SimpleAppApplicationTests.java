@@ -1,4 +1,4 @@
-package br.valecard.simpleApp;
+package vamoo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
