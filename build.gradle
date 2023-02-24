@@ -4,12 +4,10 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
-jar {
-  manifest {
-    attributes(
-      'Main-Class': 'vamoo.SimpleApplication'
-    )
-  }
+mainClassName = "vamoo/SimpleApplication"
+
+application {
+    mainClass = 'vamoo/SimpleApplication'
 }
 
 group = 'vamoo'
