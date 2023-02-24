@@ -1,10 +1,10 @@
-package br.valecard.simpleApp;
+package br.valecard;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SimpleAppApplicationTests {
+class ApiTestApplicationTests {
 
 	@Test
 	void contextLoads() {
